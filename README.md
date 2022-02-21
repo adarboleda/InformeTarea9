@@ -19,6 +19,8 @@ Objetivo Específico
 
 ![image](https://user-images.githubusercontent.com/93734334/154970174-bd829358-1b1d-45cf-b21a-1783fffe2b8c.png)
 
+![image](https://user-images.githubusercontent.com/93734334/154971999-ab87507e-671c-4a22-b0a8-04078a94a628.png)
+
 3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
 **PARTE 1: CIRCUITOS EN SERIE**
