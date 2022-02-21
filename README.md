@@ -157,6 +157,19 @@ VR = (0.5454)(22)
 11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El
 voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
 
+I = 0.05 A                                                                                                                                                                       
+VL = 100 V                                                                                                                                                                       
+Vs = 10 V
+
+VL = IXL                                                                                                                                                                         
+10 = 0.05(XL)                                                                                                                                                                     
+XL = 100/0.05                                                                                                                                                                     
+**XL = Xc = 2000 ohm**
+
+I = Vs/Z                                                                                                                                                                         
+0.05 = 10/Z                                                                                                                                                                       
+**Z = 200 ohm**
+
 13. Para la figura 17-62, ¿cuál es el valor de la corriente en los puntos de potencia media?
 
 ![image](https://user-images.githubusercontent.com/93734334/154956884-451e3d6e-0247-4230-b59b-59da8c6aacc6.png)
