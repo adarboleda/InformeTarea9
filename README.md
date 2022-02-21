@@ -101,13 +101,13 @@ Vc = (61.4 ∠ -43.75°)(35 ∠ -90°)
 
 ![image](https://user-images.githubusercontent.com/93734334/154956627-5cf3c63d-d2de-4528-9444-4c9b7414bc12.png)
 
-1/R = 1/220 + 1/390
+1/R = 1/220 + 1/390                                                                                                                                                               
 RT = 140.656 ohm
 
-LT = 0.5 + 1
+LT = 0.5 + 1                                                                                                                                                                     
 LT = 1.5 mH => 0.0015 H
 
-CT = 10000 + 1800
+CT = 10000 + 1800                                                                                                                                                                 
 CT = 11800 pF => 1.18x10^-8 F
 
 f = 25 kHz => 25000 Hz
@@ -127,17 +127,17 @@ Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)
 Z = √(140.656)^2 + (303.9)^2 ∠ tan^-1 (303.9/140.656)                                                                                                                                           
 Z = 334.87 ∠ -65.2° ohm
 
-Itot = Vs/Z
-Itot = (12 ∠ 0°)/(334.87 ∠ -65.2°)
+Itot = Vs/Z                                                                                                                                                                       
+Itot = (12 ∠ 0°)/(334.87 ∠ -65.2°)                                                                                                                                               
 **Itot = 35.8 ∠ 65.2° mA**
 
-Preal = I^2R
+Preal = I^2R                                                                                                                                                                     
 **Preal = 181 mW**
 
-Pr = I^2 Xc
+Pr = I^2 Xc                                                                                                                                                                       
 **Pr = 390 mVAR**
 
-Pa = I^2 Z
+Pa = I^2 Z                                                                                                                                                                       
 **Pa = 430 mVA**
 
 **SECCIÓN 17–3 Resonancia en serie**
@@ -145,6 +145,14 @@ Pa = I^2 Z
 9. Para el circuito de la figura 17-61, ¿cuál es el voltaje a través de R en condición de resonancia?
 
 ![image](https://user-images.githubusercontent.com/93734334/154956742-05c8b381-d6a8-4733-a32c-f0ed2b5d89f3.png)
+
+I = Vs/R                                                                                                                                                                         
+I = 12/22                                                                                                                                                                         
+I = 0.54 A
+
+VR = IR                                                                                                                                                                           
+VR = (0.5454)(22)                                                                                                                                                                 
+**VR = 12 V**
 
 11. Cierto circuito resonante dispuesto en serie tiene una corriente mínima de 50 mA y un VL de 100 V. El
 voltaje aplicado es de 10 V. ¿Cuál es el valor de Z? ¿Cuáles los valores de XL y XC?
