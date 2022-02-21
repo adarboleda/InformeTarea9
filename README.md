@@ -71,6 +71,30 @@ La impedancia se incrementa a 150 ohm
 
 ![image](https://user-images.githubusercontent.com/93734334/154956449-49bcdd7a-574b-48b7-8c7e-0fa8d660669b.png)
 
+Z = R + jXL - jXc
+Z = 47 + j80 -j35
+Z = 47 + j45 ohm
+
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
+Z = √(47)^2 + (45)^2 ∠ tan^-1 (45/47)                                                                                                                                           
+Z = 65.07 ∠ 43.75° ohm
+
+Itot = Vs/Z                                                                                                                                                                       
+Itot = (4 ∠ 0°)/(65.07 ∠ 43.75°)                                                                                                                                                 
+**Itot = 61.4 ∠ -43.75° mA** 
+  
+VR = IR                                                                                                                                                                           
+VR = (61.4 ∠ -43.75°)(47 ∠ 0°)                                                                                                                                                   
+**VR = 2.89 ∠ -43.75° V**
+
+VL = IXL                                                                                                                                                                         
+VL = (61.4 ∠ -43.75°)(80 ∠ 90°)                                                                                                                                                 
+**VL = 4.91 ∠ 46.25° V**
+
+Vc = IXc                                                                                                                                                                         
+Vc = (61.4 ∠ -43.75°)(35 ∠ -90°)                                                                                                                                                 
+**VL = 2.15 ∠ -134° V**
+
 7. Analice el circuito de la figura 17-60 para determinar lo siguiente (f = 25 kHz):
 
 (a) Itot (b) Preal (c) Pr (d) Pa
