@@ -29,6 +29,26 @@ Objetivo Específico
 1. Cierto circuito RLC en serie tiene los siguientes valores: R = 10ohm, C  = 0.047uF, y L = 5mH. Determine la impedancia en forma polar. ¿Cuál es la reactancia neta? La frecuencia de la fuente es de
 5 kHz. 
 
+R = 10 ohm                                                                                                                                                                       
+C = 0.047 uF => 4.7x10^-8 F                                                                                                                                                       
+L = 5 mH => 0.005 H                                                                                                                                                               
+f = 5 kHz => 5000 Hz
+
+Xc = 1/2πfC                                                                                                                                                                       
+Xc = 1/2π(5000)(4.7x10^-8)                                                                                                                                                       
+Xc = 677.255 ohm
+
+XL = 2πfC                                                                                                                                                                         
+XL = 2π(5000)(0.005)                                                                                                                                                             
+XL = 157.08 ohm
+
+Xtot = |157.08 - 677.255|                                                                                                                                                         
+**Xtot = 520 ohm => Capacitiva**
+
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
+Z = √(10)^2 + (250)^2 ∠ tan^-1 (250/10)                                                                                                                                           
+**Z = 520 ∠ -88.90 ohm**
+
 3. Si en la figura 17-59 la frecuencia del voltaje de fuente se duplica a partir del valor que producen las
 reactancias indicadas, ¿cómo cambia la magnitud de la impedancia?
 
