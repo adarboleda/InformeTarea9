@@ -174,10 +174,16 @@ I = Vs/Z
 
 ![image](https://user-images.githubusercontent.com/93734334/154956884-451e3d6e-0247-4230-b59b-59da8c6aacc6.png)
 
+
+
 15. Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con
 un conmutador:
 
 (a) 500 kHz (b) 1000 kHz (c) 1500 kHz (d) 2000 kHz
+
+**Respuesta**
+
+![image](https://user-images.githubusercontent.com/93734334/155039764-635af66d-c0d0-469c-93f0-c987de212c09.png)
 
 **PARTE 2: CIRCUITOS EN PARALELO**
 **SECCIÓN 17–4 Impedancia de circuitos RLC en paralelo**
