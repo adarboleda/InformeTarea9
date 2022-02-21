@@ -47,12 +47,23 @@ Xtot = |157.08 - 677.255|
 
 Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
 Z = √(10)^2 + (250)^2 ∠ tan^-1 (250/10)                                                                                                                                           
-**Z = 520 ∠ -88.90 ohm**
+**Z = 520 ∠ -88.90° ohm**
 
 3. Si en la figura 17-59 la frecuencia del voltaje de fuente se duplica a partir del valor que producen las
 reactancias indicadas, ¿cómo cambia la magnitud de la impedancia?
 
 ![image](https://user-images.githubusercontent.com/93734334/154956351-63361474-cdd6-4925-ba13-b64f7cf4d8dd.png)
+
+Xtot = |80 - 35|                                                                                                                                                         
+Xtot = 45 ohm => Inductivo
+
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
+Z = √(47)^2 + (45)^2 ∠ tan^-1 (45/47)                                                                                                                                           
+**Z = 65.07 ∠ 43.75° ohm**
+
+**Respuesta**
+
+La impedancia se incrementa a 150 ohm
 
 **SECCIÓN 17–2 Análisis de circuitos RLC en serie**
 
