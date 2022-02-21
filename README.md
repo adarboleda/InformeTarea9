@@ -101,6 +101,45 @@ Vc = (61.4 ∠ -43.75°)(35 ∠ -90°)
 
 ![image](https://user-images.githubusercontent.com/93734334/154956627-5cf3c63d-d2de-4528-9444-4c9b7414bc12.png)
 
+1/R = 1/220 + 1/390
+RT = 140.656 ohm
+
+LT = 0.5 + 1
+LT = 1.5 mH => 0.0015 H
+
+CT = 10000 + 1800
+CT = 11800 pF => 1.18x10^-8 F
+
+f = 25 kHz => 25000 Hz
+
+Xc = 1/2πfC                                                                                                                                                                       
+Xc = 1/2π(25000)(1.18x10^-8)                                                                                                                                                     
+Xc = 539.51 ohm
+
+XL = 2πfC                                                                                                                                                                         
+XL = 2π(25000)(0.0015)                                                                                                                                                           
+XL = 235.62 ohm
+
+Xtot = |235.62 - 539.51|                                                                                                                                                         
+**Xtot = 303.9 ohm => Capacitiva**
+
+Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
+Z = √(140.656)^2 + (303.9)^2 ∠ tan^-1 (303.9/140.656)                                                                                                                                           
+Z = 334.87 ∠ -65.2° ohm
+
+Itot = Vs/Z
+Itot = (12 ∠ 0°)/(334.87 ∠ -65.2°)
+**Itot = 35.8 ∠ 65.2° mA**
+
+Preal = I^2R
+**Preal = 181 mW**
+
+Pr = I^2 Xc
+**Pr = 390 mVAR**
+
+Pa = I^2 Z
+**Pa = 430 mVA**
+
 **SECCIÓN 17–3 Resonancia en serie**
 
 9. Para el circuito de la figura 17-61, ¿cuál es el voltaje a través de R en condición de resonancia?
