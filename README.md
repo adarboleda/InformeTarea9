@@ -174,7 +174,9 @@ I = Vs/Z
 
 ![image](https://user-images.githubusercontent.com/93734334/154956884-451e3d6e-0247-4230-b59b-59da8c6aacc6.png)
 
-
+I = Vs/R                                                                                                                                                                         
+I = 7.07/10                                                                                                                                                                       
+**I = 707 mA**
 
 15. Diseñe un circuito en el cual las siguientes frecuencias resonantes en serie se puedan seleccionar con
 un conmutador:
@@ -191,6 +193,8 @@ un conmutador:
 17. ¿Es capacitivo o inductivo el circuito de la figura 17-63? Explique su respuesta. 
 
 ![image](https://user-images.githubusercontent.com/93734334/154957077-33b7d827-73be-43d9-b9e2-9ee2b7c4e3f9.png)
+
+
 
 **SECCIÓN 17–5 Análisis de circuitos RLC en paralelo**
 
