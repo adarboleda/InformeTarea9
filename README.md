@@ -204,7 +204,7 @@ Xc = 602.86 ohm
 
 XL = 2πfC                                                                                                                                                                         
 XL = 2π(12000)(0.015)                                                                                                                                                             
-XL = 157.08 ohm
+XL = 1130.97 ohm
 
 G = 1/(R ∠ 0°)
 G = 1/(5 ∠ 0°)
@@ -215,23 +215,58 @@ Bc = 1/(602.86 ∠ -90°)
 Bc = 1.66 ∠ 90° uS
 
 BL = 1/(XL ∠ 90°)
-BL = 1/(157.08 ∠ 90°)
-BL = 6.37 ∠ -90° uS
+BL = 1/(1130.97 ∠ 90°)
+BL = 0.884 ∠ -90° uS
 
 Ytot = G + jBc - jBL
-Ytot = 200 + j1.66 - j6.37
-Ytot = 200 uS - j4.71
+Ytot = 200 + j1.66 - j0.884
+Ytot = 200 uS - j0.776
 
 Ytot = √G^2 + Btot^2 ∠ tan^-1 (Btot/G)                                                                                                                                           
-Ytot = √(200)^2 + (4.71)^2 ∠ tan^-1 (4.71/200)                                                                                                                             
+Ytot = √(200)^2 + (0.776)^2 ∠ tan^-1 (0.776/200)                                                                                                                             
 Ytot = 200 ∠ -4.43° uS
 
 **El ángulo de fase de -4.43° indica un circuito levemente capacitivo.**
 
-
 **SECCIÓN 17–5 Análisis de circuitos RLC en paralelo**
 
 19. Para el circuito de la figura 17-63, determine todas las corrientes y los voltajes en forma polar
+
+![image](https://user-images.githubusercontent.com/93734334/155046957-09e55068-2d56-465a-b899-13b070fcfc6b.png)
+
+L = 15 mH => 0.015 H                                                                                                                                                             
+C = 0.022 uF => 2.2x10^-8                                                                                                                                                         
+f = 12000 Hz
+
+Xc = 1/2πfC                                                                                                                                                                       
+Xc = 1/2π(12000)(2.2x10^-8)                                                                                                                                                       
+Xc = 602.86 ohm
+
+XL = 2πfC                                                                                                                                                                         
+XL = 2π(12000)(0.015)                                                                                                                                                             
+XL = 1130.97 ohm
+
+**VR = VL = Vc = 5 ∠ 0°**
+
+IR = Vs/R                                                                                                                                                                         
+IR = (5 ∠ 0°)/(100 ∠ 0°)                                                                                                                                                         
+**IR = 50 ∠ 0° mA**
+
+Ic = Vs/Xc                                                                                                                                                                       
+Ic = (5 ∠ 0°)/(602.86 ∠ -90°)                                                                                                                                                   
+**Ic = 8.29 ∠ 90° mA**
+
+IL = Vs/XL                                                                                                                                                                       
+IL = (5 ∠ 0°)/(1130.97 ∠ 90°)                                                                                                                                                   
+**IL = 4.42 ∠ 90° mA**
+
+Itot = IR + Ic + IL                                                                                                                                                               
+Itot = 50 + j8.29 - j4.42                                                                                                                                                         
+Itot = 50 mA + j3.87 mA     
+
+Itot = √IR^2 + (Ic - IL)^2 ∠ tan^-1 (IcL/IR)                                                                                                                                     
+Itot = √50^2 + (3.87)^2 ∠ tan^-1 (3.87/50)                                                                                                                                       
+**Itot = 50.15 ∠ 4.43° mA**
 
 21. Cambie la frecuencia a 100 kHz en la figura 17-63 y repita el problema 19. 
 
