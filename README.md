@@ -312,6 +312,16 @@ Itot = √50^2 + (68.58)^2 ∠ tan^-1 (68.58/50)
 
 ![image](https://user-images.githubusercontent.com/93734334/154957296-d8fb57c9-6e96-42e3-9d54-d4cbe437b74f.png)
 
+R = 20 ohm                                                                                                                                                                       
+L = 50 mH => 0.05 H                                                                                                                                                               
+C = 47 pF => 4.7x10^-11
+
+fr = (√1 - Rw^2C/L)/2π√LC                                                                                                                                                         
+fr = (√1 - (20)^2(4.7x10-11)/(0.05))/2π√(4.7x10-11)(0.05)                                                                                                                         
+fr = 103821.21 Hz                                                                                                                                                                 
+**fr = 104 kHz**                                                                                                                                                                 
+**Z = 53.5 Mohm**
+
 4. VIDEO
 
 5. CONCLUSIONES
