@@ -272,6 +272,40 @@ Itot = √50^2 + (3.87)^2 ∠ tan^-1 (3.87/50)
 
 ![image](https://user-images.githubusercontent.com/93734334/154957206-12a701c5-6931-4156-b2b1-69b1aae1ee45.png)
 
+L = 15 mH => 0.015 H                                                                                                                                                             
+C = 0.022 uF => 2.2x10^-8                                                                                                                                                         
+f = 1000000 Hz
+
+Xc = 1/2πfC                                                                                                                                                                       
+Xc = 1/2π(100000)(2.2x10^-8)                                                                                                                                                     
+Xc = 72.34 ohm
+
+XL = 2πfC                                                                                                                                                                         
+XL = 2π(100000)(0.015)                                                                                                                                                           
+XL = 9424.78 ohm
+
+VR = VL = Vc = 5 ∠ 0°
+
+IR = Vs/R                                                                                                                                                                         
+IR = (5 ∠ 0°)/(100 ∠ 0°)                                                                                                                                                         
+**IR = 50 ∠ 0° mA**
+
+Ic = Vs/Xc                                                                                                                                                                       
+Ic = (5 ∠ 0°)/(72.34 ∠ -90°)                                                                                                                                                   
+**Ic = 69.11 ∠ 90° mA**
+
+IL = Vs/XL                                                                                                                                                                       
+IL = (5 ∠ 0°)/(9424.78 ∠ 90°)                                                                                                                                                   
+**IL = 0.53 ∠ 90° mA**
+
+Itot = IR + Ic + IL                                                                                                                                                               
+Itot = 50 + j69.11 - j0.53                                                                                                                                                       
+Itot = 50 mA + j68.58 mA     
+
+Itot = √IR^2 + (Ic - IL)^2 ∠ tan^-1 (IcL/IR)                                                                                                                                     
+Itot = √50^2 + (68.58)^2 ∠ tan^-1 (68.58/50)                                                                                                                                     
+**Itot = 84.9 ∠ 53.9° mA**
+
 **SECCIÓN 17–6 Resonancia en paralelo**
 
 23. Determine Z en condición de resonancia y fr para el circuito tanque de la figura 17-64.
