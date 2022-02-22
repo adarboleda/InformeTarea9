@@ -124,7 +124,7 @@ Xtot = |235.62 - 539.51|
 **Xtot = 303.9 ohm => Capacitiva**
 
 Z = √R^2 + Xtot^2 ∠ tan^-1 (Xtot/R)                                                                                                                                               
-Z = √(140.656)^2 + (303.9)^2 ∠ tan^-1 (303.9/140.656)                                                                                                                                           
+Z = √(140.656)^2 + (303.9)^2 ∠ tan^-1 (303.9/140.656)                                                                                                                             
 Z = 334.87 ∠ -65.2° ohm
 
 Itot = Vs/Z                                                                                                                                                                       
@@ -194,6 +194,39 @@ un conmutador:
 
 ![image](https://user-images.githubusercontent.com/93734334/154957077-33b7d827-73be-43d9-b9e2-9ee2b7c4e3f9.png)
 
+L = 15 mH => 0.015 H                                                                                                                                                             
+C = 0.022 uF => 2.2x10^-8                                                                                                                                                         
+f = 12000 Hz
+
+Xc = 1/2πfC                                                                                                                                                                       
+Xc = 1/2π(12000)(2.2x10^-8)                                                                                                                                                       
+Xc = 602.86 ohm
+
+XL = 2πfC                                                                                                                                                                         
+XL = 2π(12000)(0.015)                                                                                                                                                             
+XL = 157.08 ohm
+
+G = 1/(R ∠ 0°)
+G = 1/(5 ∠ 0°)
+G = 200 ∠ 0° uS
+
+Bc = 1/(Xc ∠ -90°)
+Bc = 1/(602.86 ∠ -90°)
+Bc = 1.66 ∠ 90° uS
+
+BL = 1/(XL ∠ 90°)
+BL = 1/(157.08 ∠ 90°)
+BL = 6.37 ∠ -90° uS
+
+Ytot = G + jBc - jBL
+Ytot = 200 + j1.66 - j6.37
+Ytot = 200 uS - j4.71
+
+Ytot = √G^2 + Btot^2 ∠ tan^-1 (Btot/G)                                                                                                                                           
+Ytot = √(200)^2 + (4.71)^2 ∠ tan^-1 (4.71/200)                                                                                                                             
+Ytot = 200 ∠ -4.43° uS
+
+**El ángulo de fase de -4.43° indica un circuito levemente capacitivo.**
 
 
 **SECCIÓN 17–5 Análisis de circuitos RLC en paralelo**
