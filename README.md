@@ -4,12 +4,12 @@
 
 Objetivo General
 
-* Conocer sobre los circuitos RC y circuitos RL mediante la utilización del libro de Floyd "Principios de Circuitos Eléctricos"
+* Conocer sobre los circuitos RCL y resonancia y filtros pasivos mediante la utilización del libro de Floyd "Principios de Circuitos Eléctricos"
 
 Objetivo Específico
 
-* Resumir los capitulos quince y dieciséis del libro de Floyd "Principios de Circuitos Eléctricos", para que de esta forma se pueda comprender de una mejor manera los temas descritos.
-* Aplicar los conocimientos adquiridos de circuitos RC y circuitos RL para la resolcuión de los ejercicos propuestos por el libro de Floyd.
+* Resumir los capitulos diecisiete y dieciocho del libro de Floyd "Principios de Circuitos Eléctricos", para que de esta forma se pueda comprender de una mejor manera los temas descritos.
+* Aplicar los conocimientos adquiridos de circuitos RCL y resonancia y filtros pasivos para la resolcuión de los ejercicos propuestos por el libro de Floyd.
 
 2. MARCO TEÓRICO
 
