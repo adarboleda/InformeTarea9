@@ -341,7 +341,7 @@ fr = 103821.21 Hz
 **fr = 104 kHz**                                                                                                                                                                 
 **Z = 53.5 Mohm**
 
-SECCIÓN 17–6 Resonancia en paralelo
+**SECCIÓN 17–6 Resonancia en paralelo**
 
 25. Determine Preal, Pr y Pa en el circuito de la figura 17-64 en condición de resonancia.
 
@@ -349,27 +349,55 @@ SECCIÓN 17–6 Resonancia en paralelo
 
 ![image](https://user-images.githubusercontent.com/93733175/155553912-965d83d4-887c-4226-a763-f075e02326f0.png)
 
-PARTE 3: CIRCUITOS EN SERIE-PARALELO 
+**PARTE 3: CIRCUITOS EN SERIE-PARALELO** 
 
-SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
+**ECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO**
 
 27. Para cada circuito de la figura 17-65, determine el ángulo de fase entre el voltaje de fuente y la corriente total.
+
+![image](https://user-images.githubusercontent.com/93733175/155571261-5db74e07-81f9-491f-aeac-f6fef8e80b6e.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155571282-bb0b7ee1-e1e4-41e0-a77b-d9e76bf926eb.png)
+
+Para el circuito a:
+
+![image](https://user-images.githubusercontent.com/93733175/155571329-fcfbcc50-a190-40be-987f-098580dcba87.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155571343-b2d1417c-9e37-4c38-8732-6df543c9ff65.png)
+
+Para el circuito b:
+
+![image](https://user-images.githubusercontent.com/93733175/155571375-f990b571-7a86-4683-a201-31edfd5fd6f7.png)
 
 29. Convierta el circuito de la figura 17-66 a una forma equivalente dispuesta en serie.
 
 ![image](https://user-images.githubusercontent.com/93733175/155554007-f757b169-ba51-4256-9ca9-853bad70aae4.png)
 
+![image](https://user-images.githubusercontent.com/93733175/155571425-fa4dad4e-7b9a-4a7c-b2a3-683978d12bd7.png)
+
+**Respuesta:**
+
+El nuevo circuito tiene como resistencia 49.03kΩ 
+
+valor de inductancia de 17.44kH.
+
 31. En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
 
 ![image](https://user-images.githubusercontent.com/93733175/155554047-ac582517-8d9d-47c4-bd3c-19ee55e6b853.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155571607-5fa68be7-0407-48c8-9cec-11221fa64e1f.png)
 
 33. Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada componente.
 
 ![image](https://user-images.githubusercontent.com/93733175/155554087-900bd2ce-a040-40f4-9f90-df2fc393cf86.png)
 
+![image](https://user-images.githubusercontent.com/93733175/155571653-4d28fb88-9edb-4691-a6a4-1ac9cae3c5ba.png)
+
 35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
 
 ![image](https://user-images.githubusercontent.com/93733175/155554133-666f768d-98e8-4c78-8c67-5f63a2ccd849.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155571785-946ae263-dd64-4fcb-8fed-b2fc988d24a0.png)
 
 37. Determine las frecuencias resonantes y el voltaje de salida en cada frecuencia mostrada en la figura 17-70.
 
@@ -773,6 +801,8 @@ https://youtu.be/LAPIIRt6Ho8
 * Tambien, en un circuito en serie RLC, las tensiones entre los terminales del condensador y los terminales del inductor están siempre separadas 180°. Por lo tanto, VC y VL se restan entre sí, de modo que la suma de las tensiones en L y C es siempre menor que la tensión máxima individual entre los terminales de cualquiera de los componentes.
 * Los filtros de pasaaltas permite que fluya señales de alta frecuencia y los filtros de pasabajas permite quefluya las señales de baja frecuencia.
 * Los filtros de pasabanda permite que pasen las señales que se encuentran en un determinado intervalo de frecuencia si una frecuencia se pasa del intervalo es eliminada y los filtros de rechazabanda es lo opuesto a los filtros de pasabanda debido a que determina el intervalo de frecuencia donde las frecuencias son rechazadas.
+* Se puede concluir que en un circuito resonante en paralelo, la impedancia es máxima a la frecuencia resonante; de modo que la corriente total es mínima.
+* Dentro de las relaciones de corriente se tiene que en un circuito RLC dispuesto en paralelo, las corrientes que circulan por las ramas capacitiva e inductiva siempre están desfasadas en 180° entre sí (omitiendo cualquier resistencia de bobina).
 
 6. BIBLIOGRAFÍA
 
