@@ -21,6 +21,16 @@ Objetivo Específico
 
 ![image](https://user-images.githubusercontent.com/93734334/154971999-ab87507e-671c-4a22-b0a8-04078a94a628.png)
 
+
+![imagen](https://user-images.githubusercontent.com/93879569/155470932-e27cd063-f0b8-4351-bba8-84b87f477579.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155470999-412b6acf-c64f-40ce-b96b-dc40009f5f4c.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155471042-c5407c53-00f1-4d64-b239-d031393f0a27.png)
+
+![imagen](https://user-images.githubusercontent.com/93879569/155471083-f13d703c-6e1f-4354-a8b0-35b806ecfec8.png)
+
+
 3. EXPLICACIÓN Y RESOLUCIÓN DE EJERCICIOS O PROBLEMAS
 
 **PARTE 1: CIRCUITOS EN SERIE**
@@ -328,7 +338,9 @@ fr = 103821.21 Hz
 
 * Como conclusión, un circuito RLC en serie está formado por una resistencia, un inductor y un condensador. Las reactancias inductiva y capacitiva tienen efectos opuestos en el ángulo de fase del circuito, de modo que la reactancia global es menor que las reactancias individuales, pero como la resonancia es una situación en la que las reactancias capacitiva e inductiva son iguales, se anulan mutuamente, dando lugar a una impedancia puramente resistiva.
 * Tambien, en un circuito en serie RLC, las tensiones entre los terminales del condensador y los terminales del inductor están siempre separadas 180°. Por lo tanto, VC y VL se restan entre sí, de modo que la suma de las tensiones en L y C es siempre menor que la tensión máxima individual entre los terminales de cualquiera de los componentes.
-*  
+* Los filtros de pasaaltas permite que fluya señales de alta frecuencia y los filtros de pasabajas permite quefluya las señales de baja frecuencia.
+* Los filtros de pasabanda permite que pasen las señales que se encuentran en un determinado intervalo de frecuencia si una frecuencia se pasa del intervalo es eliminada y los filtros de rechazabanda es lo opuesto a los filtros de pasabanda debido a que determina el intervalo de frecuencia donde las frecuencias son rechazadas.
+
 6. BIBLIOGRAFÍA
 
 Floyd, T. (2007). Principios de circuitos eléctricos. PEARSON Educación. https://drive.google.com/file/d/15UCq2JrPEKKB8SwajlmtTcE07nMiowaK/view
