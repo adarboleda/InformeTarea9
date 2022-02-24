@@ -763,12 +763,9 @@ F0= sqrt(1-2200^247/10)/2piSqrt(1047)
 
 
 
-
-
-
-
-
 4. VIDEO
+
+https://youtu.be/LAPIIRt6Ho8
 
 5. CONCLUSIONES
 
