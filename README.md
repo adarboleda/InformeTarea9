@@ -633,7 +633,19 @@ Vsalida=(1000/(1000+4))*120V
 
 ![imagen](https://user-images.githubusercontent.com/93879569/155533708-f33b9640-0fa4-4424-b67f-7e7b9b2b74c0.png)
 
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-1000^26.8/0,5)/2piSqrt(0.56,8)
+
+**F0=318Hz**
+
 ![imagen](https://user-images.githubusercontent.com/93879569/155533736-2de717dd-75df-40ef-9609-9799bf930876.png)
+
+F0=sqrt(1-R^2*C/L)/2piSqrt(LC)
+
+F0= sqrt(1-2200^247/10)/2piSqrt(1047)
+
+**F0=10,21Hz**
 
 *27. Determine los valores de L1 y L2 en la figura 18-48 para dejar pasar una señal con frecuencia de 1200 kHz y rechazar una señal con frecuencia de 456 kHz.
 
