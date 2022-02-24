@@ -349,23 +349,49 @@ SECCIÓN 17–6 Resonancia en paralelo
 
 ![image](https://user-images.githubusercontent.com/93733175/155553912-965d83d4-887c-4226-a763-f075e02326f0.png)
 
-PARTE 3: CIRCUITOS EN SERIE-PARALELO 
+**PARTE 3: CIRCUITOS EN SERIE-PARALELO**
 
-SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
+**SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO**
 
 27. Para cada circuito de la figura 17-65, determine el ángulo de fase entre el voltaje de fuente y la corriente total.
+
+![image](https://user-images.githubusercontent.com/93733175/155574113-71d9e489-8a86-426b-85ae-504f39262903.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155574120-4f201d18-6e04-4ec1-8cc3-81f10443c174.png)
+
+Para el circuito a:
+
+![image](https://user-images.githubusercontent.com/93733175/155574165-1ce035cd-e0f4-4ee0-acda-b579c788e426.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155574177-6170c07a-ae3c-4dcd-911e-870546269cdc.png)
+
+Para el circuito b:
+
+![image](https://user-images.githubusercontent.com/93733175/155574205-9c6e288a-540d-4a0a-b34f-e1b09e58ddfe.png)
 
 29. Convierta el circuito de la figura 17-66 a una forma equivalente dispuesta en serie.
 
 ![image](https://user-images.githubusercontent.com/93733175/155554007-f757b169-ba51-4256-9ca9-853bad70aae4.png)
 
+![image](https://user-images.githubusercontent.com/93733175/155574266-b92d393c-e472-4bc9-bb50-47c3289fb7e6.png)
+
+**Respuesta*
+
+El nuevo circuito tiene como resistencia 49.03kΩ
+
+valor de inductancia de 17.44kH.
+
 31. En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
 
 ![image](https://user-images.githubusercontent.com/93733175/155554047-ac582517-8d9d-47c4-bd3c-19ee55e6b853.png)
 
+![image](https://user-images.githubusercontent.com/93733175/155574365-50c6fb10-f4b9-49fa-b382-f3c54474ae0e.png)
+
 33. Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada componente.
 
 ![image](https://user-images.githubusercontent.com/93733175/155554087-900bd2ce-a040-40f4-9f90-df2fc393cf86.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155574396-39f83038-519a-4988-a5a3-0353c36a912f.png)
 
 35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
 
@@ -822,6 +848,8 @@ https://youtu.be/LAPIIRt6Ho8
 * Tambien, en un circuito en serie RLC, las tensiones entre los terminales del condensador y los terminales del inductor están siempre separadas 180°. Por lo tanto, VC y VL se restan entre sí, de modo que la suma de las tensiones en L y C es siempre menor que la tensión máxima individual entre los terminales de cualquiera de los componentes.
 * Los filtros de pasaaltas permite que fluya señales de alta frecuencia y los filtros de pasabajas permite quefluya las señales de baja frecuencia.
 * Los filtros de pasabanda permite que pasen las señales que se encuentran en un determinado intervalo de frecuencia si una frecuencia se pasa del intervalo es eliminada y los filtros de rechazabanda es lo opuesto a los filtros de pasabanda debido a que determina el intervalo de frecuencia donde las frecuencias son rechazadas.
+* Dentro de las relaciones de corriente se tiene que en un circuito RLC dispuesto en paralelo, las corrientes que circulan por las ramas capacitiva e
+inductiva siempre están desfasadas en 180° entre sí (omitiendo cualquier resistencia de bobina).
 
 6. BIBLIOGRAFÍA
 
