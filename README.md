@@ -369,7 +369,23 @@ SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
 
 35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
 
-![image](https://user-images.githubusercontent.com/93733175/155554133-666f768d-98e8-4c78-8c67-5f63a2ccd849.png)
+![image](https://user-images.githubusercontent.com/93733175/155573088-ef26cb37-0bab-40d7-98a1-ca018211d795.png)
+
+Calcular la impedancia del conductor e inductor:
+
+![image](https://user-images.githubusercontent.com/93733175/155573198-506eb612-1333-4f02-8ba6-b9f92e69c428.png)
+
+Calcular la resistencia total:
+
+![image](https://user-images.githubusercontent.com/93733175/155573254-3adf7fb4-72bd-4cf7-8a11-42b030a2a529.png)
+
+Calcular la corriente total:
+
+![image](https://user-images.githubusercontent.com/93733175/155573441-f5173034-ad0e-4c8e-9a08-d0bc1d9d93c0.png)
+
+Calculo de la corriente por la resistencia de 100Ω
+
+![image](https://user-images.githubusercontent.com/93733175/155573626-14491429-d047-4ba4-b209-e1d021d5637f.png)
 
 37. Determine las frecuencias resonantes y el voltaje de salida en cada frecuencia mostrada en la figura 17-70.
 
