@@ -22,6 +22,15 @@ Objetivo Específico
 ![image](https://user-images.githubusercontent.com/93734334/154971999-ab87507e-671c-4a22-b0a8-04078a94a628.png)
 
 
+![image](https://user-images.githubusercontent.com/93733175/155553500-bb36c47a-66c6-4db2-b9c8-87aaef5b2809.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155553593-70115c4d-ec4c-4bff-8416-743cb2307555.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155553648-73e23e3a-dae4-4dab-8c40-b7a3a285501a.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155553718-26e0513b-432c-4a52-85a2-46636abd8404.png)
+
+
 ![imagen](https://user-images.githubusercontent.com/93879569/155470932-e27cd063-f0b8-4351-bba8-84b87f477579.png)
 
 ![imagen](https://user-images.githubusercontent.com/93879569/155470999-412b6acf-c64f-40ce-b96b-dc40009f5f4c.png)
@@ -332,6 +341,107 @@ fr = 103821.21 Hz
 **fr = 104 kHz**                                                                                                                                                                 
 **Z = 53.5 Mohm**
 
+SECCIÓN 17–6 Resonancia en paralelo
+
+25. Determine Preal, Pr y Pa en el circuito de la figura 17-64 en condición de resonancia.
+
+![image](https://user-images.githubusercontent.com/93733175/155553889-7e7b3f14-738e-45e4-8ea6-bec67b37128c.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155553912-965d83d4-887c-4226-a763-f075e02326f0.png)
+
+PARTE 3: CIRCUITOS EN SERIE-PARALELO 
+
+SECCIÓN 17–7 ANÁLISIS DE CIRCUITOS RLC EN SERIE-PARALELO
+
+27. Para cada circuito de la figura 17-65, determine el ángulo de fase entre el voltaje de fuente y la corriente total.
+
+29. Convierta el circuito de la figura 17-66 a una forma equivalente dispuesta en serie.
+
+![image](https://user-images.githubusercontent.com/93733175/155554007-f757b169-ba51-4256-9ca9-853bad70aae4.png)
+
+31. En la figura 17-67, ¿cuál es el ángulo de fase entre I2 y el voltaje de fuente?
+
+![image](https://user-images.githubusercontent.com/93733175/155554047-ac582517-8d9d-47c4-bd3c-19ee55e6b853.png)
+
+33. Determine la corriente a través de cada componente mostrado en la figura 17-68. Encuentre el voltaje entre las terminales de cada componente.
+
+![image](https://user-images.githubusercontent.com/93733175/155554087-900bd2ce-a040-40f4-9f90-df2fc393cf86.png)
+
+35. Si el valor de C es de 0.22 µF, ¿cuál es la corriente a través de un resistor de 100 Ω conectado de a a b en la figura 17-69?
+
+![image](https://user-images.githubusercontent.com/93733175/155554133-666f768d-98e8-4c78-8c67-5f63a2ccd849.png)
+
+37. Determine las frecuencias resonantes y el voltaje de salida en cada frecuencia mostrada en la figura 17-70.
+
+![image](https://user-images.githubusercontent.com/93733175/155555033-8b18033e-0f1c-4b6a-8f2c-7f8e40d31843.png)
+
+Frecuencia en serie
+
+![image](https://user-images.githubusercontent.com/93733175/155555135-619a2cec-61be-438a-a5c3-506c454c3f40.png)
+
+Frecuencia en paralelo
+
+![image](https://user-images.githubusercontent.com/93733175/155555254-a3a7d6b0-dd21-4582-8e3d-59e84c79c97c.png)
+
+**PARTE 4: TEMAS ESPECIALES**
+
+**SECCIÓN 17–8 Ancho de banda de circuitos resonantes**
+
+39. En condición de resonancia, XL = 2 kΩ y RW 25Ω en un circuito RLC en paralelo. La frecuencia resonante es de 5 kHz. Determine el ancho de banda.
+
+Para la resolución del problema se tiene las siguientes formulas:
+
+El factor Q:
+
+![image](https://user-images.githubusercontent.com/93733175/155555425-dc9d644a-1cbd-4393-8dc7-c7e6441ef300.png)
+
+Un valor alto de Q produce un ancho de banda más angosto. Un valor bajo de Q produce un ancho de banda más amplio. En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q:
+
+![image](https://user-images.githubusercontent.com/93733175/155555478-df6e1ec6-f434-41de-abf8-65ae0b04ef76.png)
+
+41. En cierto circuito RLC, la potencia en condición de resonancia es de 2.75 W. ¿Cuál es la potencia a la frecuencia crítica baja?
+
+En condición de resonancia:
+
+![image](https://user-images.githubusercontent.com/93733175/155555564-c0be7a86-3970-435d-8fad-c67ee8dad210.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155555594-33c6dd53-b0e4-408d-b122-10d3e5171d47.png)
+
+De forma tal que la potencia a la frecuencia crítica baja es:
+
+![image](https://user-images.githubusercontent.com/93733175/155555645-62cd74d2-c25b-4b79-a772-8c898478a37b.png)
+
+43. Cierto circuito resonante en paralelo tiene un factor Q de 50 y un AB de 400 Hz. Si Q se duplica, ¿cuál es el ancho de banda a la misma fr?
+
+En la siguiente ecuación se establece una fórmula para el ancho de banda de un circuito resonante en función de Q:
+
+![image](https://user-images.githubusercontent.com/93733175/155555725-a45ff9d5-9135-43e0-bb77-42c12b8442b2.png)
+
+Para ello se calcula primeramente frecuencia de resonancia:
+
+![image](https://user-images.githubusercontent.com/93733175/155555782-c7ae7f72-2489-44ba-92cd-f18483e0df80.png)
+
+Ahora según el enunciado nos dice que el factor Q se ha duplicado entonces de 50 pasa a 100 y se determina con este valor el ancho de banda de fr:
+
+![image](https://user-images.githubusercontent.com/93733175/155555859-a937f65f-50fa-40b9-8c82-e505ab8f7ebf.png)
+
+SECCIÓN 18–1 Filtros pasabajas
+
+1. En cierto filtro pasabajas, XC = 500 Ω y R = 2.2 kΩ. ¿Cuál es el voltaje de salida (Vsal) cuando la entrada es de 10 V rms?
+
+Al aplicar la fórmula del divisor de voltaje, la magnitud del voltaje de salida es:
+
+![image](https://user-images.githubusercontent.com/93733175/155555942-31607279-2548-4895-82a9-dadd312b9c4c.png)
+
+3. Determine el voltaje de salida (Vsal) de cada filtro mostrado en la figura 18-38 a la frecuencia especificada cuando Vent = 10 V
+
+![image](https://user-images.githubusercontent.com/93733175/155556045-8599e54e-5ecf-434a-a8c4-2d9e4a85c17b.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556149-fedb0b2e-fb56-4c55-9ed2-0d7e279e4dc3.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556193-1077741d-efa6-4aaf-9af1-634cd8684da8.png)
+
+![image](https://user-images.githubusercontent.com/93733175/155556236-e2669cad-db20-4654-8fa9-ea5c1d1beac4.png)
 
 5. Para el filtro de la figura 18-39, calcule el valor de C requerido para cada una de las siguientes frecuencias críticas:
 
